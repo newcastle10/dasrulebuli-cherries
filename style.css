@@ -1,0 +1,96 @@
+
+
+body{min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;}
+
+div {border-radius: 20px;
+    width: 345px;
+    padding: 52px 47px;
+    box-sizing: border-box;
+	color: #fff;
+	height: 564px;}
+
+h1 {    color: white;
+    font-weight: bold;
+    font-size: 30px;}
+ul{	margin-left: 33px;
+	padding: 0}
+li {	list-style: none;
+	position: relative;
+	margin: 10px 0 9px 0;}
+
+li::before{	content: url('./v.svg');
+	display: inline-block;
+	width: 16px;
+	height: 11px;
+	position: absolute;
+	left: -33px;}
+
+.blue {	background-color: #2B3566;}
+.blue > a {	color: #45D3C2;
+	border:1px solid #45D3C2;}
+
+.black {background-color: #242424;}
+
+.red {	background-color: #DD1F32}
+.blue-h1 { 	color: seagreen;}
+
+
+
+@font-face{	font-family: "roboto";
+	src: url('./fonts/Roboto-Light.ttf');
+	font-weight: normal;
+	unicode-range: U+0020—007F;}
+
+*{	font-family: "roboto", sans-serif;
+	font-weight: normal;
+	font-size: 12px;}
+
+
+.download1{ width: 370px;
+  background-color: #2B3566;
+  border-style: solid ;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  font-size: 16px;
+border-radius: 40px;
+text-decoration: none;
+border-width:thin;
+border-color: #45D3C2;
+font-weight: bold;}
+
+
+	.download1:hover{background-color: #45D3C2;color: darkblue;}
+
+	.download2{	width: 370px;
+		   background-color: #242424;
+		  border-style: solid ;
+		  color: white;
+		  padding: 15px 40px;
+		  text-align: center;
+		  font-size: 16px;
+		border-radius: 40px;
+			border-width:thin;
+			border-color: blue;
+		font-weight: bold;
+		text-decoration: none;}
+
+		.download2:hover{background-color: blue;color: white;}
+		
+		.download3{width: 370px;
+		  background-color: #DD1F32;
+		  border-style: solid ;
+		  color: white;
+			padding: 15px 40px;
+		  text-align: center;
+		  font-size: 16px;
+		border-radius: 40px;
+			border-width:thin;
+			border-color: rgb(253, 215, 26);
+		font-weight: bold;
+		text-decoration: none;}
+		
+.download3:hover{background-color: yellow;color: red;}
